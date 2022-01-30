@@ -101,3 +101,15 @@ img {
 .box i {
     margin: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .description-cont .container {
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
+}
